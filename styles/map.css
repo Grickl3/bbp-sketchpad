@@ -1,0 +1,41 @@
+
+
+.map {
+	margin: 3rem;
+}
+
+#oregon path { fill: #5F0F40; }
+#oregon:hover path {
+	cursor: pointer;
+	fill: #0F4C5C;
+}
+
+#california path { fill: #5F0F40; }
+#california:hover path {
+	cursor: pointer;
+	fill: #0F4C5C;
+}
+
+#montana path { fill: #5F0F40; }
+#montana:hover path {
+	cursor: pointer;
+	fill: #0F4C5C;
+}
+
+#nebraska path { fill: #5F0F40; }
+#nebraska:hover path {
+	cursor: pointer;
+	fill: #0F4C5C;
+}
+
+#louisiana path { fill: #5F0F40; }
+#louisiana:hover path {
+	cursor: pointer;
+	fill: #0F4C5C;
+}
+
+#florida path { fill: #5F0F40; }
+#florida:hover path {
+	cursor: pointer;
+	fill: #0F4C5C;
+}
