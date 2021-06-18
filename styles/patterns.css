@@ -1,4 +1,8 @@
 
+body {
+	overflow-x: hidden;
+	background-color: #FFF4EB;
+}
 
 .btn:hover {
 	cursor: pointer;
@@ -6,10 +10,10 @@
 }
 
 .tile {
-	margin: 6rem -10px;
+	margin: 6rem -10px 0 -10px;
 	height: 6000px;
-	width: 1500px;
-	border: 1px solid gold;
+	width: 110vw;
+	/*border: 1px solid gold;*/
 }
 
 .palms {

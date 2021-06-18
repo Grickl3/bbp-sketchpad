@@ -7,16 +7,24 @@
 	<link rel="stylesheet" type="text/css" href="styles/type.css">
 	<link rel="stylesheet" type="text/css" href="styles/map.css">
 
+	<script type="text/javascript" src="scripts/map.js"></script>
 </head>
 <body>
 
-	<h1 id="heading"> click a state </h1>
-	<p> but, you know, make sure it's the right one.</p>
+	
 
-	<div> 
+	<div class="layout__nav"> <!-- NAV -->
 		<a href="patterns.html">patterns</a> |
+		<a href="https://github.com/Grickl3/bbp-sketchpad" target="_blank">repo</a>
+	</div> <!-- NAV -->
 
-	</div>
+	<div class="map__button-box"> <!-- BUTTONS -->
+		<div id="btn-1" class="map__button"></div>
+		<div id="btn-2" class="map__button"></div>
+		<div id="btn-3" class="map__button"></div>
+	</div> <!-- BUTTONS -->
+
+
 	<!-- <img src="states.svg"> -->
 
 	<!-- <svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
@@ -662,13 +670,24 @@
 	</div>
 
 	<script type="text/javascript">
-	
-	const heading = document.getElementById("heading");	
-	const colorado = document.getElementById("colorado");
 
-	colorado.addEventListener("click", function() {
-		heading.innerText = "colorado";
-	})
+		// STATES	
+			const oregon = document.getElementById("oregon");
+			const california = document.getElementById("california");
+			const montana = document.getElementById("montana");
+			const nebraska = document.getElementById("nebraska");
+			const louisiana = document.getElementById("louisiana");
+			const florida = document.getElementById("florida");
+
+		// BUTTONS
+			const btn1 = document.getElementById("btn-1");
+			const btn2 = document.getElementById("btn-2");
+			const btn3 = document.getElementById("btn-3");
+
+		oregon.addEventListener('click', function() {
+			// oregon.classList.add("active-state");
+			btn1.css({ fill: "#EB6D1E"});
+		});
 
 	</script>
 

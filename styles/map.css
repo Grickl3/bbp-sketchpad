@@ -4,38 +4,72 @@
 	margin: 3rem;
 }
 
-#oregon path { fill: #5F0F40; }
-#oregon:hover path {
-	cursor: pointer;
-	fill: #0F4C5C;
+.map__button-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 2rem 0;
 }
 
-#california path { fill: #5F0F40; }
-#california:hover path {
-	cursor: pointer;
-	fill: #0F4C5C;
+.map__button {
+	height: 50px;
+	width: 350px;
+	background-color: #F3A778;
+	border-radius: 9px;
+	border: 3px solid #EB6D1E;
 }
+	.map__button:hover {
+		cursor: pointer;
+		background-color: #EF8A4B;
+	}
 
-#montana path { fill: #5F0F40; }
-#montana:hover path {
-	cursor: pointer;
-	fill: #0F4C5C;
-}
+	.btn__active {
+		background-color: #EB6D1E;
+	}
 
-#nebraska path { fill: #5F0F40; }
-#nebraska:hover path {
-	cursor: pointer;
-	fill: #0F4C5C;
-}
+/* ==================================== STATES ===== */
+	#oregon path { fill: #5F0F40; }
+	#oregon:hover path {
+		cursor: pointer;
+		fill: #0F4C5C;
+	}
 
-#louisiana path { fill: #5F0F40; }
-#louisiana:hover path {
-	cursor: pointer;
-	fill: #0F4C5C;
-}
+	#california path { fill: #5F0F40; }
+	#california:hover path {
+		cursor: pointer;
+		fill: #0F4C5C;
+	}
 
-#florida path { fill: #5F0F40; }
-#florida:hover path {
-	cursor: pointer;
-	fill: #0F4C5C;
-}
+	#montana path { fill: #5F0F40; }
+	#montana:hover path {
+		cursor: pointer;
+		fill: #0F4C5C;
+	}
+
+	#nebraska path { fill: #5F0F40; }
+	#nebraska:hover path {
+		cursor: pointer;
+		fill: #0F4C5C;
+	}
+
+	#louisiana path { fill: #5F0F40; }
+	#louisiana:hover path {
+		cursor: pointer;
+		fill: #0F4C5C;
+	}
+
+	#florida path { fill: #5F0F40; }
+	#florida:hover path {
+		cursor: pointer;
+		fill: #0F4C5C;
+	}
+
+/* ==================================== STATE CHANGE ===== */
+
+	.active-state path {
+		fill: #EB6D1E;
+	}
+
+
+
+
