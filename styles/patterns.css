@@ -1,0 +1,29 @@
+
+
+.btn:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+.tile {
+	margin: 6rem -10px;
+	height: 6000px;
+	width: 1500px;
+	border: 1px solid gold;
+}
+
+.palms {
+	background-image: url("../images/spanish-palms-1080.png")
+}
+
+.swirls {
+	background-image: url("../images/tyrian-swirls-675.png")
+}
+
+.circles {
+	background-image: url("../images/upsdell-circles-420.png")
+}
+
+.leaves {
+	background-image: url("../images/eagle-leaves-313.png")
+}

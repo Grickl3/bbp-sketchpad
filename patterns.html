@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>patterns</title>
+
+	<link rel="stylesheet" type="text/css" href="styles/patterns.css">
+</head>
+<body>
+
+	<h1>PATTERNS</h1>
+	<a href="index.html">home</a>
+
+	<div><p>
+		<span id="palms-btn" class="btn">PALMS</span> | 
+		<span id="swirls-btn" class="btn">SWIRLS</span> | 
+		<span id="circles-btn" class="btn">CIRCLES</span> | 
+		<span id="leaves-btn" class="btn">LEAVES</span> | 
+	</p></div>
+
+	<div id="box" class="tile swirls"></div>
+
+<script type="text/javascript">
+	
+	const box = document.getElementById("box");
+	const palmsBtn = document.getElementById("palms-btn");
+	const swirlsBtn = document.getElementById("swirls-btn");
+	const circlesBtn = document.getElementById("circles-btn");
+	const leavesBtn = document.getElementById("leaves-btn");
+
+	palmsBtn.addEventListener('click', function() {
+		box.classList.add("palms");
+		box.classList.remove("swirls");
+		box.classList.remove("circles");
+		box.classList.remove("leaves");
+	})
+
+	swirlsBtn.addEventListener('click', function() {
+		box.classList.remove("palms");
+		box.classList.add("swirls");
+		box.classList.remove("circles");
+		box.classList.remove("leaves");
+	})
+
+	circlesBtn.addEventListener('click', function() {
+		box.classList.remove("palms");
+		box.classList.remove("swirls");
+		box.classList.add("circles");
+		box.classList.remove("leaves");
+	})
+
+	leavesBtn.addEventListener('click', function() {
+		box.classList.remove("palms");
+		box.classList.remove("swirls");
+		box.classList.remove("circles");
+		box.classList.add("leaves");
+	})
+
+
+</script>
+
+</body>
+</html>
