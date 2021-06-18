@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>states test</title>
+	<title>BBP sketchbook</title>
 
 	<link rel="stylesheet" type="text/css" href="styles/layout.css">
 	<link rel="stylesheet" type="text/css" href="styles/type.css">
@@ -11,8 +11,8 @@
 </head>
 <body>
 
-	
-
+	<h1>Ballots Building Power</h1>
+	<h3>A Sketchbook</h3>
 	<div class="layout__nav"> <!-- NAV -->
 		<a href="patterns.html">patterns</a> |
 		<a href="https://github.com/Grickl3/bbp-sketchpad" target="_blank">repo</a>
@@ -679,15 +679,211 @@
 			const louisiana = document.getElementById("louisiana");
 			const florida = document.getElementById("florida");
 
+			
+			oregon.classList.add("state-of-interest");
+			california.classList.add("state-of-interest");
+			montana.classList.add("state-of-interest");
+			nebraska.classList.add("state-of-interest");
+			louisiana.classList.add("state-of-interest");
+			florida.classList.add("state-of-interest");
+			
+
 		// BUTTONS
 			const btn1 = document.getElementById("btn-1");
 			const btn2 = document.getElementById("btn-2");
 			const btn3 = document.getElementById("btn-3");
 
-		oregon.addEventListener('click', function() {
-			// oregon.classList.add("active-state");
-			btn1.css({ fill: "#EB6D1E"});
-		});
+		// ISSUE ONE
+			btn1.addEventListener('click', function() {
+				// turn on issue elements
+				oregon.classList.toggle("state-of-interest");
+				oregon.classList.toggle("active-state");
+				california.classList.toggle("state-of-interest");
+				california.classList.toggle("active-state");
+				btn1.classList.toggle("btn__active");
+				// enable hover states
+				montana.classList.add("state-of-interest");
+				nebraska.classList.add("state-of-interest");
+				louisiana.classList.add("state-of-interest");
+				florida.classList.add("state-of-interest");
+				//turn off other issues
+				montana.classList.remove("active-state");
+				nebraska.classList.remove("active-state");
+				louisiana.classList.remove("active-state");
+				florida.classList.remove("active-state");
+				btn2.classList.remove("btn__active");
+				btn3.classList.remove("btn__active");
+			});
+
+			oregon.addEventListener('click', function() {
+				// turn on issue elements
+				oregon.classList.toggle("state-of-interest");
+				oregon.classList.toggle("active-state");
+				california.classList.toggle("state-of-interest");
+				california.classList.toggle("active-state");
+				btn1.classList.toggle("btn__active");
+				// enable hover states
+				montana.classList.add("state-of-interest");
+				nebraska.classList.add("state-of-interest");
+				louisiana.classList.add("state-of-interest");
+				florida.classList.add("state-of-interest");
+				//turn off other issues
+				montana.classList.remove("active-state");
+				nebraska.classList.remove("active-state");
+				louisiana.classList.remove("active-state");
+				florida.classList.remove("active-state");
+				btn2.classList.remove("btn__active");
+				btn3.classList.remove("btn__active");
+			});
+
+			california.addEventListener('click', function() {
+				// turn on issue elements
+				oregon.classList.toggle("state-of-interest");
+				oregon.classList.toggle("active-state");
+				california.classList.toggle("state-of-interest");
+				california.classList.toggle("active-state");
+				btn1.classList.toggle("btn__active");
+				// enable hover states
+				montana.classList.add("state-of-interest");
+				nebraska.classList.add("state-of-interest");
+				louisiana.classList.add("state-of-interest");
+				florida.classList.add("state-of-interest");
+				//turn off other issues
+				montana.classList.remove("active-state");
+				nebraska.classList.remove("active-state");
+				louisiana.classList.remove("active-state");
+				florida.classList.remove("active-state");
+				btn2.classList.remove("btn__active");
+				btn3.classList.remove("btn__active");
+			});
+
+		// ISSUE TWO
+			btn2.addEventListener('click', function() {
+				// turn on issue elements
+				montana.classList.toggle("state-of-interest");
+				montana.classList.toggle("active-state");
+				nebraska.classList.toggle("state-of-interest");
+				nebraska.classList.toggle("active-state");
+				btn2.classList.toggle("btn__active");
+				// enable hover states
+				oregon.classList.add("state-of-interest");
+				california.classList.add("state-of-interest");
+				louisiana.classList.add("state-of-interest");
+				florida.classList.add("state-of-interest");
+				//turn off other issues
+				oregon.classList.remove("active-state");
+				california.classList.remove("active-state");
+				louisiana.classList.remove("active-state");
+				florida.classList.remove("active-state");
+				btn1.classList.remove("btn__active");
+				btn3.classList.remove("btn__active");
+			});
+
+			montana.addEventListener('click', function() {
+				// turn on issue elements
+				montana.classList.toggle("state-of-interest");
+				montana.classList.toggle("active-state");
+				nebraska.classList.toggle("state-of-interest");
+				nebraska.classList.toggle("active-state");
+				btn2.classList.toggle("btn__active");
+				// enable hover states
+				oregon.classList.add("state-of-interest");
+				california.classList.add("state-of-interest");
+				louisiana.classList.add("state-of-interest");
+				florida.classList.add("state-of-interest");
+				//turn off other issues
+				oregon.classList.remove("active-state");
+				california.classList.remove("active-state");
+				louisiana.classList.remove("active-state");
+				florida.classList.remove("active-state");
+				btn1.classList.remove("btn__active");
+				btn3.classList.remove("btn__active");
+			});
+
+			nebraska.addEventListener('click', function() {
+				// turn on issue elements
+				montana.classList.toggle("state-of-interest");
+				montana.classList.toggle("active-state");
+				nebraska.classList.toggle("state-of-interest");
+				nebraska.classList.toggle("active-state");
+				btn2.classList.toggle("btn__active");
+				// enable hover states
+				oregon.classList.add("state-of-interest");
+				california.classList.add("state-of-interest");
+				louisiana.classList.add("state-of-interest");
+				florida.classList.add("state-of-interest");
+				//turn off other issues
+				oregon.classList.remove("active-state");
+				california.classList.remove("active-state");
+				louisiana.classList.remove("active-state");
+				florida.classList.remove("active-state");
+				btn1.classList.remove("btn__active");
+				btn3.classList.remove("btn__active");
+			});
+
+		// ISSUE THREE
+			btn3.addEventListener('click', function() {
+				// turn on issue elements
+				louisiana.classList.toggle("state-of-interest");
+				louisiana.classList.toggle("active-state");
+				florida.classList.toggle("state-of-interest");
+				florida.classList.toggle("active-state");
+				btn3.classList.toggle("btn__active");
+				// enable hover states
+				oregon.classList.add("state-of-interest");
+				california.classList.add("state-of-interest");
+				montana.classList.add("state-of-interest");
+				nebraska.classList.add("state-of-interest");
+				//turn off other issues
+				oregon.classList.remove("active-state");
+				california.classList.remove("active-state");
+				montana.classList.remove("active-state");
+				nebraska.classList.remove("active-state");
+				btn1.classList.remove("btn__active");
+				btn2.classList.remove("btn__active");
+			});
+
+			louisiana.addEventListener('click', function() {
+				// turn on issue elements
+				louisiana.classList.toggle("state-of-interest");
+				louisiana.classList.toggle("active-state");
+				florida.classList.toggle("state-of-interest");
+				florida.classList.toggle("active-state");
+				btn3.classList.toggle("btn__active");
+				// enable hover states
+				oregon.classList.add("state-of-interest");
+				california.classList.add("state-of-interest");
+				montana.classList.add("state-of-interest");
+				nebraska.classList.add("state-of-interest");
+				//turn off other issues
+				oregon.classList.remove("active-state");
+				california.classList.remove("active-state");
+				montana.classList.remove("active-state");
+				nebraska.classList.remove("active-state");
+				btn1.classList.remove("btn__active");
+				btn2.classList.remove("btn__active");
+			});
+
+			florida.addEventListener('click', function() {
+				// turn on issue elements
+				louisiana.classList.toggle("state-of-interest");
+				louisiana.classList.toggle("active-state");
+				florida.classList.toggle("state-of-interest");
+				florida.classList.toggle("active-state");
+				btn3.classList.toggle("btn__active");
+				// enable hover states
+				oregon.classList.add("state-of-interest");
+				california.classList.add("state-of-interest");
+				montana.classList.add("state-of-interest");
+				nebraska.classList.add("state-of-interest");
+				//turn off other issues
+				oregon.classList.remove("active-state");
+				california.classList.remove("active-state");
+				montana.classList.remove("active-state");
+				nebraska.classList.remove("active-state");
+				btn1.classList.remove("btn__active");
+				btn2.classList.remove("btn__active");
+			});
 
 	</script>
 
