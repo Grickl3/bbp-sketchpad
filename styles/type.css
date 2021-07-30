@@ -1,7 +1,11 @@
-
+/* ================================= LOCAL FONTS ======*/
+	@font-face {
+	  font-family: 'Bison Bold';
+	  src:  url('Bison-Bold.woff') format('woff');
+	}
 
 h1,h3 {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Bison Bold', Helvetica, sans-serif;
 	text-align: center;
 	color: #5F0F40;
 }
