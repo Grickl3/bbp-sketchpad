@@ -41,6 +41,7 @@
 		/* ----- Rajah: #FCAB5F; ------ */
 		/* ----- Upsdell Red: #B40424; ------ */
 		/* ----- Green Eagle: #0F4050; ------ */
+		/* ----- Green Eagle, 60%: #6F949D; ------ */
 		/* ----- Tyrian Purple: #5F0F40; ------ */
 		/* ----- Seashell: #FFF4EB; ------ */
 		/* ----- Xiketic: #12030C; ------ */
@@ -82,6 +83,9 @@
 	p {
 		font-family: 'Franklin Light', Franklin, sans-serif;
 		max-width: 30rem;
+		font-size: 1.125rem;
+		line-height: 1.35rem;
+		color: #12030C;
 	}
 
 	strong { font-family: 'Franklin Demi', Franklin, sans-serif; }
@@ -93,10 +97,13 @@
 	li {
 		font-family: 'Franklin Light', Franklin, sans-serif;
 		max-width: 30rem;
+		font-size: 1.125rem;
+		line-height: 1.35rem;
+		color: #12030C;
 	}
 
-	a { color: #EB6D1E; }
-	a:hover { color: #0F4C5C; }
+	a { color: #6F949D; text-decoration: none;}
+	a:hover,a:active { color: #EB6D1E; }
 
 /* ================================= SPECIALS ======*/
 
