@@ -7,3 +7,8 @@ body { background-color: #FFF4EB; }
 	font-family: helvetica, sans-serif;
 	color: #EB6D1E;
 }
+
+.layout__basic-content__box {
+	max-width: 80vw;
+	margin: 0 3rem;
+}
