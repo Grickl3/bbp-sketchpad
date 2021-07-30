@@ -36,6 +36,11 @@
 		  src:  url('../fonts/body/FranklinGothicURW-Boo.woff') format('woff'),
 		  		url('../fonts/body/FranklinGothicURW-Boo.ttf') format('ttf');
 		}
+		@font-face {
+		  font-family: 'Franklin Heavy';
+		  src:  url('../fonts/body/FranklinGothicURW-Hea.woff') format('woff'),
+		  		url('../fonts/body/FranklinGothicURW-Hea.ttf') format('ttf');
+		}
 	/* ----- COLORS ------ */
 		/* ----- Spanish Orange: #EB6D1E; ------ */
 		/* ----- Rajah: #FCAB5F; ------ */
@@ -43,6 +48,7 @@
 		/* ----- Green Eagle: #0F4050; ------ */
 		/* ----- Green Eagle, 60%: #6F949D; ------ */
 		/* ----- Tyrian Purple: #5F0F40; ------ */
+		/* ----- Tyrian Purple, 40%: #BF9FB3; ------ */
 		/* ----- Seashell: #FFF4EB; ------ */
 		/* ----- Xiketic: #12030C; ------ */
 
@@ -72,11 +78,11 @@
 	}
 
 
-	h3 {
+	/*h3 {
 		font-family: 'Bison Bold', Helvetica, sans-serif;
 		text-align: center;
 		color: #5F0F40;
-	}
+	}*/
 
 /* ================================= BODY ======*/
 
@@ -113,6 +119,38 @@
 		line-height: 1rem;
 		color: #0F4050;
 	}
+
+	.type__drop-quote {
+		padding-left: 1rem;
+		font-family: 'Franklin Light Italic', Franklin, sans-serif;
+		border-left: 6px solid #BF9FB3;
+	}
+
+	.type__pull-quote {
+		font-family: 'Franklin Demi Italic', Franklin, sans-serif;
+		background-color: #EB6D1E;
+		color: #FFF4EB;
+		font-size: 1.5rem;
+		line-height: 1.85rem;
+	}
+	.type__pull-quote__left {
+		margin: 2rem 0 2rem -2rem;
+		padding: 1rem 2rem 1rem 6rem;
+	}
+
+	.type__pull-quote__right {
+		margin-top: 2rem;
+		margin-right: -2rem;
+		margin-bottom: 2rem;
+		margin-left: auto;
+		padding: 1rem 6rem 1rem 2rem;
+	}
+
+
+
+
+
+
 
 
 
