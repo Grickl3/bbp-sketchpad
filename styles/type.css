@@ -1,6 +1,11 @@
 /* ================================= LOCAL FONTS ======*/
 	/* ----- DISPLAY ------ */
 		@font-face {
+		  font-family: 'Bison';
+		  src:  url('../fonts/display/Bison-Regular.woff') format('woff'),
+		  		url('../fonts/display/Bison-Regular.ttf') format('ttf');
+		}
+		@font-face {
 		  font-family: 'Bison Bold';
 		  src:  url('../fonts/display/Bison-Bold.woff') format('woff'),
 		  		url('../fonts/display/Bison-Bold.ttf') format('ttf');
@@ -77,6 +82,19 @@
 		background-color: #EB6D1E;
 	}
 
+	h5 {
+		display: inline;
+		/*margin: -6px 0 0 0;*/
+		padding: 6px;
+		font-family: 'Bison Bold', Helvetica, sans-serif;
+		font-size: 1.4rem;
+		line-height: 1rem;
+		color: #FCAB5F;
+		background-color: #0F4050;
+	}
+
+	/* h6 — see specials */
+
 
 	/*h3 {
 		font-family: 'Bison Bold', Helvetica, sans-serif;
@@ -94,11 +112,17 @@
 		color: #12030C;
 	}
 
-	strong { font-family: 'Franklin Demi', Franklin, sans-serif; }
+	strong { 
+		font-family: 'Franklin Demi', Franklin, sans-serif; 
+		color: #41353D;
+	}
 
 	em { font-family: 'Franklin Light Italic', Franklin, sans-serif; }
 
-	.type__very-important { font-family: 'Franklin Demi Italic'; }
+	.type__very-important { 
+		font-family: 'Franklin Demi Italic'; 
+		color: #41353D;
+	}
 
 	li {
 		font-family: 'Franklin Light', Franklin, sans-serif;
@@ -108,12 +132,37 @@
 		color: #12030C;
 	}
 
-	a { color: #6F949D; text-decoration: none;}
+	a { 
+		color: #6F949D; 
+		text-decoration: none;
+	}
+		/*p a::before {
+			display: inline-block;
+			content: " ";
+			position: relative;
+			left: 7%;
+			/*top: 60%;*/
+			/*bottom: -12px;
+			width: 60px;
+			height: 5px;
+			color: #f7C5A5;
+			background-color: #f7C5A5;
+			z-index: -1;
+		}*/
+
 	a:hover,a:active { color: #EB6D1E; }
 
 /* ================================= SPECIALS ======*/
 
-	.type__label {
+	.type__nav {
+		margin-right: 2rem; 
+		font-family: 'Bison', helvetica, sans-serif;
+		font-size: 1.4rem;
+		letter-spacing: .1rem;
+		color: #FFF4EB;
+	}
+
+	h6, .type__label {
 		font-family: 'Buffalo Bold Italic', Helvetica, sans-serif;
 		font-size: 1.2rem;
 		line-height: 1rem;
@@ -144,6 +193,16 @@
 		margin-bottom: 2rem;
 		margin-left: auto;
 		padding: 1rem 6rem 1rem 2rem;
+	}
+
+	.mistake {
+		display: inline;
+		padding-bottom: 4px;
+		font-family: 'Buffalo Bold Italic', Helvetica, sans-serif;
+		font-size: 1.2rem;
+		line-height: 1rem;
+		color: #FFF4EB;
+		background-color: #B40424;
 	}
 
 

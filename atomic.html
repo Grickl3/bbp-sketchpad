@@ -12,14 +12,14 @@
 <body>
 	
 	<!-- HEADER -->
-	<div class="layout__basic-content__box">
+	<div class="">
 		<h1>Ballots Building Power</h1>
 		<h2>Atomic Design Elements</h2>
 		<div class="layout__nav"> <!-- NAV -->
-			<a href="index.html">root</a> |
-			<a href="atomic.html">atomic</a> |
-			<a href="patterns.html">patterns</a> |
-			<a href="https://github.com/Grickl3/bbp-sketchpad" target="_blank">repo</a>
+			<a class="type__nav" href="index.html">root</a>
+			<a class="type__nav" href="atomic.html">atomic</a>
+			<a class="type__nav" href="patterns.html">patterns</a>
+			<a class="type__nav" href="https://github.com/Grickl3/bbp-sketchpad" target="_blank">repo</a>
 		</div> <!-- NAV -->
 	</div><!-- END HEADER -->
 
@@ -35,8 +35,74 @@
 				<li>Seashell on Tyrian Purple and Green Eagle are also acceptable as body text, and Seashell on Upsdell Red is to be used for warnings, if needed</li>
 				<li>Seashell on Spanish Orange should be reserved for emphasis such as pull quotes and headings</li>
 			</ul>
+
+			<p>emphasis</p>
+				<ul>
+					<li><strong>bold</strong><br>
+						— FranklinGothicURW-Dem<br>
+						— #41353D
+					</li>
+					<li><em>italic</em><br>
+						— FranklinGothicURW-LigIta<br>
+						— #12030C
+					</li>
+					<li><span class="type__very-important">bold italic</span><br>
+						— FranklinGothicURW-DemIta<br>
+						— #41353D
+					</li>
+				</ul>
 			<script src="https://verbingnounssincewhen.com/p"></script>
 	</div><!-- END BODY TEXT -->
+
+	<div class="small-space"></div>
+
+	<!-- LISTS -->
+	<div class="layout__basic-content__box">
+	
+		<p class="mistake">not person first</p>
+		<p><strong>Director/Producer</strong> - Tatiana Bacchus<br>
+		<strong>Production Manager</strong> - Danielle Lewis<br>
+		<strong>Production Coordinator</strong> - Jennifer Dowe<br>
+		<strong>Editor</strong> - Les Rivera<br>
+		<strong>Post Production Sound</strong> - Ben Wong<br>
+		<strong>Archival Research Assistant</strong> - Destiny Boynton</p>
+
+		<h6>much better</h6>
+		<p><strong>Tatiana Bacchus</strong>, Director/Producer<br>
+		<strong>Danielle Lewis</strong>, Production Manager<br>
+		<strong>Jennifer Dowe</strong>, Production Coordinator<br>
+		<strong>Les Rivera</strong>, Editor<br>
+		<strong>Ben Wong</strong>, Post Production Sound<br>
+		<strong>Destiny Boynton</strong>, Archival Research Assistant</p>
+
+
+		<!-- 	<p class="type__label">lists</p>
+		<p>basic un-ordered</p>
+			<ul>
+				<li>floatsome</li>
+				<li>jetsome</li>
+				<li>detritus</li>
+				<li>thingies</li>
+			</ul>
+		<p>basic ordered</p>
+			<ol>
+				<li>slice bread</li>
+				<li>apply peanut butter</li>
+				<li>apply jelly</li>
+				<li>blend lightly</li>
+				<li>close sandwich</li>
+			</ol>
+		<p>credits</p>
+			<ul>
+				<li><span class="type__person">John</span> floatsome</li>
+				<li>jetsome</li>
+				<li>detritus</li>
+				<li>thingies</li>
+			</ul> -->
+		
+	</div><!-- END LISTS -->
+
+	<div class="medium-space"></div>
 
 	<!-- HEADINGS -->
 	<div class="layout__basic-content__box">
@@ -45,8 +111,8 @@
 		<h2>Heading Number Two</h2>
 		<h3>Heading Number Three</h3>
 		<h4>Heading Number Four</h4>
-		<h5>Heading Number Four</h5>
-		<h6>Heading Number Four</h6>
+		<h5>Heading Number Five</h5>
+		<h6>Heading Number Six</h6>
 	</div><!-- END HEADINGS -->
 
 	<!-- BLOCK QUOTES -->
@@ -62,9 +128,10 @@
 	<div class="layout__basic-content__box">
 		<p class="type__label">pull quotes</p></div>
 
-		<p class="type__pull-quote__left type__pull-quote">This is left oriented pull quote. It should reach the left edge of the viewport.</p>
+		<p class="type__pull-quote__left type__pull-quote">This is a left oriented pull quote. It should reach the left edge of the viewport.</p>
 
-		<p class="type__pull-quote__right type__pull-quote">This is right oriented pull quote. It should reach the right edge of the viewport.</p>
+		<p class="type__pull-quote__right type__pull-quote">This is a right oriented pull quote. It should reach the right edge of the viewport.</p>
+		<p class="type__pull-quote__right type__pull-quote">Let’s not do centered pull quotes.</p>
 	<!-- END PULL QUOTES -->
 		
 
@@ -81,7 +148,12 @@
 	<!-- BOXES -->
 	<div class="layout__basic-content__box">
 		<p class="type__label">boxes</p>
+
+		<p>Use color tints instead of using colors at partial opacity. Seashell and Rajah should always be used at full opacity and without alteration. Tints of other colors are superior to low opacity Seashell or Rajah</p>
+		<img class="layout__image" src="images/bbp-tints.png" alt="color chart" nopin="nopin">
 	</div><!-- END BOXES -->
+
+
 
 
 </body>

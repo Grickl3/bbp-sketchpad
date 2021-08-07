@@ -2,13 +2,21 @@
 body { background-color: #FFF4EB; }
 
 .layout__nav {
-	margin: 3rem;
+	margin: 3rem -10px 3rem -10px;
+	padding: 1rem 0;
 	text-align: center;
-	font-family: helvetica, sans-serif;
-	color: #EB6D1E;
+	background-image: linear-gradient(to right, #0F4050 , #5F0F40);
 }
 
 .layout__basic-content__box {
 	max-width: 80vw;
 	margin: 0 3rem;
 }
+
+.layout__image {
+	max-width: 90vw;
+}
+
+.small-space { width: 5px; height: 50px; }
+.medium-space { width: 5px; height: 100px; }
+.large-space { width: 5px; height: 200px; }
