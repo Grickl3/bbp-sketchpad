@@ -29,8 +29,9 @@
 			<!--<p>abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklm</p>-->
 			<p>By way of example, this paragraph is submitted as body text. It is complete with <strong>bolded copy</strong>, <em>italic copy</em>, <span class="type__very-important">bolded italic copy</span>, and <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">links</a>. In the report, bolded copy is shown in Tyrian Purple. But, the report has no hyperlinks. On the site, differently colored text would be confusing and should only be used to indicate UI elements. While this document only gives desktop specifications, similar proportions should be maintained for other applications:</p>
 			<ul>
+				<li>always, always, left aligned<br><em>center aligned divs with left-aligned text inside them are all good</em></li>
 				<li>fewer than seventy characters per line<br><em>(max-width: 30rem; is the rule I'm using here)</em></li>
-				<li>line-height about 120% of font-size</li>
+				<li>line-height about 120% of font-size<br><em>font-size: 1.125rem; line-height: 1.35rem; seems solid</em></li>
 				<li>Xiketic (#12030C) on Seashell (#FFF4EB) by default</li>
 				<li>Seashell on Tyrian Purple and Green Eagle are also acceptable as body text, and Seashell on Upsdell Red is to be used for warnings, if needed</li>
 				<li>Seashell on Spanish Orange should be reserved for emphasis such as pull quotes and headings</li>
@@ -40,15 +41,15 @@
 				<ul>
 					<li><strong>bold</strong><br>
 						&#8212; FranklinGothicURW-Dem<br>
-						&#8212; #41353D
+						&#8212; #41353D (80% tint of Xiketic)
 					</li>
 					<li><em>italic</em><br>
 						&#8212; FranklinGothicURW-LigIta<br>
-						&#8212; #12030C
+						&#8212; #12030C (full force Xiketic)
 					</li>
 					<li><span class="type__very-important">bold italic</span><br>
 						&#8212; FranklinGothicURW-DemIta<br>
-						&#8212; #41353D
+						&#8212; #41353D (80% tint of Xiketic)
 					</li>
 				</ul>
 			<script src="https://verbingnounssincewhen.com/p"></script>
@@ -116,14 +117,20 @@
 		<h6>Heading Number Six (usefull for labels)</h6>
 	</div><!-- END HEADINGS -->
 
+	<div class="medium-space"></div>
+
 	<!-- BLOCK QUOTES -->
 	<div class="layout__basic-content__box">
 		<p class="type__label">block quotes</p>
 		<p>In the last week or so, I&#700;ve been noodling on this fictional text on econmics which I'm outlining and a statement made by Rory Sutherland has been heavily on my mind:</p>
 		<p class="type__drop-quote">At first, the model shows you things you didn&#700;t know. Then, end the end, it ends up convincing you of things you shouldn't believe.
+		<p class="type__quote-attribution">Rory Sutherland</p>
+		<p class="type__quote-association">VP, Ogilvy</p>
 		<p>He explains his meaning at length in both the lecture, <a href="https://www.youtube.com/watch?v=--CjFS0owMM" target="_blank">The Case for Magic</a> and his recent Opus <a href="https://www.indiebound.org/book/9780062801500">Alchemy</a>.</p>
 
 	</div><!-- END BLOCK QUOTES -->
+
+	<div class="medium-space"></div>
 
 	<!-- PULL QUOTES -->
 	<div class="layout__basic-content__box">
@@ -137,22 +144,49 @@
 		
 
 	<!-- HEROES -->
-	<div class="layout__basic-content__box">
-		<p class="type__label">heroes</p>
-	</div><!-- END HEROES -->
+	<!-- <div class="layout__basic-content__box"> -->
+		<!-- <p class="type__label">heroes</p> -->
+	<!-- </div> --><!-- END HEROES -->
 
-	<!-- BUTTONS -->
+	<div class="medium-space"></div>
+
+	<!-- BUTTON -->
 	<div class="layout__basic-content__box">
 		<p class="type__label">buttons</p>
+
+		<div class="layout__button">
+			<span class="layout__button__label">Intrasite Navigation</span>
+			<div class="layout__button__drop-shadow"></div>
+		</div><!-- BUTTON -->
+
+		<div class="layout__download">
+			<img src="images/download.svg" class="layout__download__icon" alt="download icon" nopin="nopin">
+			<span class="layout__download__label">Download Button</span>
+			<div class="layout__download__drop-shadow"></div>
+		</div><!-- BUTTON -->
+
+		<p>I think we should stick with one button for intrasite navigation and one for downloads. I’m making the navigation buttons the same color as the the in-body links.</p>
+		<p>The buttons in the map interface can stay orange with no drop shadow thingy. They should, though, have pointy corners. Because, branding.</p>
+
 	</div><!-- END BUTTONS -->
+
+	<div class="medium-space"></div>
 
 	<!-- BOXES -->
 	<div class="layout__basic-content__box">
 		<p class="type__label">boxes</p>
 
-		<p>Use color tints instead of using colors at partial opacity. Seashell and Rajah should always be used at full opacity and without alteration. Tints of other colors are superior to low opacity Seashell or Rajah</p>
-		<img class="layout__image" src="images/bbp-tints.png" alt="color chart" nopin="nopin">
+		<p>I think that I&#700;m just going to try to cover boxes a little more in the styleguide. That may be one thing that is less efficient for me to do here. Also, I&#700;m generally digging the direction that the site is currently taking with boxes &#8212; especially the author photos, And the thing going on with the insights and recommendations. So, there might not be a lot of reason for me to put in a lot here.</p>
 	</div><!-- END BOXES -->
+
+	<div class="medium-space"></div>
+
+	<!-- COLOR REFERENCE -->
+	<div class="layout__basic-content__box">
+		<p class="type__label">color reference</p>
+		<p>Use color tints instead of using colors at partial opacity. Seashell and Rajah should always be used at full opacity and without alteration. Tints of other colors are superior to low opacity Seashell or Rajah. And, both Upsdell Red and the tints of Xiketic should very rarely used for anything. Basically, Upsdell is great for snatching attention in a setting of otherwise secondary colors. Xiketic is similarly striking when it is used for anything heavier than body text. So, these things should only be done if there is a reason to really command attention to a specific space. And, this should be done with great moderation, to preserve the impact.</p>
+		<img class="layout__image" src="images/bbp-tints.png" alt="color chart" nopin="nopin">
+	</div><!-- END COLORS -->
 
 
 

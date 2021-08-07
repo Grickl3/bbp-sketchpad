@@ -105,11 +105,11 @@
 
 	h5 {
 		display: inline;
-		/*margin: -6px 0 0 0;*/
 		padding: 6px;
 		font-family: 'Bison Bold', Helvetica, sans-serif;
 		font-size: 1.4rem;
 		line-height: 1rem;
+		letter-spacing: .0125rem;
 		color: #FCAB5F;
 		background-color: #0F4050;
 	}
@@ -191,9 +191,31 @@
 	}
 
 	.type__drop-quote {
-		padding-left: 1rem;
+		padding-left: 16px;
 		font-family: 'Franklin Light Italic', Franklin, sans-serif;
 		border-left: 6px solid #BF9FB3;
+	}
+
+	.type__quote-attribution {
+		display: inline;
+		margin-left: 22px; 
+		padding: 3px;
+		font-family: 'Bison', Helvetica, sans-serif;
+		font-size: 1.2rem;
+		line-height: 1rem;
+		letter-spacing: .125rem;
+		color: #FFF4EB;
+		background-color: #0F4050;
+	}
+
+	.type__quote-association {
+		margin-left: 25px;
+		font-family: 'Franklin Light Italic', Franklin, sans-serif;
+		max-width: 30rem;
+		font-size: .8rem;
+		line-height: .8rem;
+		letter-spacing: .05rem;
+		color: #41353D;
 	}
 
 	.type__pull-quote {
@@ -222,10 +244,22 @@
 		font-family: 'Buffalo Bold Italic', Helvetica, sans-serif;
 		font-size: 1.2rem;
 		line-height: 1rem;
-		color: #FFF4EB;
-		background-color: #B40424;
+		color: #B40424;
+		/*background-color: #B40424;*/
 	}
 
+	.type__pattern-label {
+		margin: 0 1rem; 
+		font-family: 'Bison', helvetica, sans-serif;
+		font-size: 1.4rem;
+		letter-spacing: .1rem;
+		color: #FFF4EB;
+	}
+
+		.type__pattern-label:hover {
+			color: #EB6D1E;
+			cursor: pointer;
+		}
 
 
 

@@ -1,3 +1,10 @@
+/* ================================== FONTS ====================== */
+	@font-face {
+		  font-family: 'Bison Demi';
+		  src:  url('../fonts/display/Bison-DemiBold.woff') format('woff'),
+		  		url('../fonts/display/Bison-DemiBold.ttf') format('ttf');
+		}
+
 
 body { background-color: #FFF4EB; }
 
@@ -20,3 +27,74 @@ body { background-color: #FFF4EB; }
 .small-space { width: 5px; height: 50px; }
 .medium-space { width: 5px; height: 100px; }
 .large-space { width: 5px; height: 200px; }
+
+
+.layout__button {
+	display: inline-block;
+	margin: 0 3rem 2rem 0;
+	padding: .8rem;
+	background-color: #3F707D;
+	transition: all .3s ease-out;
+	cursor: pointer;
+}
+	.layout__button:hover {
+		background-color: #EB6D1E;
+	}
+
+.layout__button__label {
+	font-family: 'Bison Demi';
+	letter-spacing: .125rem;
+	color: #FFF4EB;
+}
+
+.layout__button__drop-shadow {
+	position: absolute;
+	margin-top: -1rem;
+	height: 2rem;
+	width: 6rem;
+	border: 2px solid #0F4C5C;
+	z-index: -1;
+	transform: translateX(5rem);
+}
+
+
+.layout__download {
+	display: inline-block;
+	margin: 0 3rem 2rem 0;
+	padding: .8rem;
+	background-color: #7F3F66;
+	transition: all .3s ease-out;
+	cursor: pointer;
+}
+	.layout__download:hover {
+		background-color: #EB6D1E;
+	}
+
+.layout__download__label {
+	font-family: 'Bison Demi';
+	letter-spacing: .125rem;
+	color: #FFF4EB;
+}
+
+.layout__download__drop-shadow {
+	position: absolute;
+	margin-top: -1rem;
+	height: 2rem;
+	width: 6rem;
+	border: 2px solid #0F4C5C;
+	z-index: -1;
+	transform: translateX(5rem);
+}
+
+.layout__download__icon {
+	margin: 0 1rem 0 0;
+	height: 1.2rem;
+}
+
+
+
+
+
+
+
+
