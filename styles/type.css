@@ -11,6 +11,11 @@
 		  		url('../fonts/display/Bison-Bold.ttf') format('ttf');
 		}
 		@font-face {
+		  font-family: 'Bison Demi';
+		  src:  url('../fonts/display/Bison-DemiBold.woff') format('woff'),
+		  		url('../fonts/display/Bison-DemiBold.ttf') format('ttf');
+		}		
+		@font-face {
 		  font-family: 'Buffalo Bold Italic';
 		  src:  url('../fonts/display/Buffalo-BoldItalic.woff') format('woff'),
 		  		url('../fonts/display/Buffalo-BoldItalic.ttf') format('ttf');
@@ -80,6 +85,22 @@
 		line-height: 2.8rem;
 		color: #FFF4EB;
 		background-color: #EB6D1E;
+	}
+
+	h3 {
+		margin: 0 0 1rem 0;
+		position: relative;
+		line-height: 3.8rem;
+		font-family: 'Buffalo Bold Italic';
+		font-size: 6rem;
+		color: #EB6D1E;
+	}
+
+	h4 {
+		font-family: 'Bison Demi', Helvetica, sans-serif;
+		font-size: 3rem;
+		line-height: 2.8rem;
+		color: #EB6D1E;
 	}
 
 	h5 {
